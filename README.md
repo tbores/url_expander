@@ -1,15 +1,13 @@
 url_expander
 ============
 
-your.xls -> | url_expander.py | -> OUT_your.xls
-
-Specification
--------------
+Introduction
+------------
 URL Expander has been created for supporting a friend writing his Phd.
 He wanted me to analyse Excel files generating with http://twitonomy.com/.
 Each file contains a tweet in each row at the third column.
 Goal of url_expander is to replace all shortened URL that can be found in a tweet with the real url.
-url_expander doesn't change your twitonomy excel files. Instead it creates for each a new one named OUT_orginalfilename.
+url_expander doesn't change your twitonomy excel files. Instead it creates a copy of each input file.
 
 Usage:
 ------
